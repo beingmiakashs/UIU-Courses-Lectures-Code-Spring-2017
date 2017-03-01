@@ -5,8 +5,10 @@ package com.sa.OOPTheory.SectionSJ.LectureFive;
  */
 public class Solution {
     static int a = 10;
+    final static double d = 25.0;
 
     public static void main(String[] args) {
+        //d+=10;
         //System.out.println("Before modification: "+a);
         //Solution s = new Solution();
         //s.modify(a);

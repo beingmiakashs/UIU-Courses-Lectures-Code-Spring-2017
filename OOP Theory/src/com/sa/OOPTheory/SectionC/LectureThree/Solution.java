@@ -18,6 +18,9 @@ public class Solution {
 
     public static void main(String[] args) {
 
+        final double c = 15.25;
+        // c = 10.23;
+
         int b = a;
         b+=10;
         //Solution s = new Solution();

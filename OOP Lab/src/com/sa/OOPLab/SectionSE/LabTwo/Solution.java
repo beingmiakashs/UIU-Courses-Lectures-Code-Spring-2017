@@ -21,6 +21,9 @@ public class Solution {
         System.out.println(boxes[5].calArea());
 
         Box box1 = new Box(10,15,10);
+        box1.setWidth(20);
+
+        double w = box1.getWidth();
 //        box1.init(10,15,10);
 //        box1.width = 10;
 //        box1.height = 15;

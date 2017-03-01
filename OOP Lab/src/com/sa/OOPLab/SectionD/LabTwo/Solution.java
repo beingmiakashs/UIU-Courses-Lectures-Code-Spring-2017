@@ -18,6 +18,7 @@ public class Solution {
 
         Box box1;
         box1 = new Box(1,1,1);
+        
         //box1.init(10,10,10);
 //        box1.widht = 15;
 //        box1.height = 20;
