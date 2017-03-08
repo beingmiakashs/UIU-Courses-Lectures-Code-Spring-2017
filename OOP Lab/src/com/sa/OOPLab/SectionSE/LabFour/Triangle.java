@@ -8,6 +8,10 @@ public class Triangle extends Shape {
         super(width, height, -1);
     }
 
+    public double calArea() {
+        return 0.5*width*height;
+    }
+
     @Override
     public void printDetails() {
         System.out.println("Triangle: "+width+" "+height);

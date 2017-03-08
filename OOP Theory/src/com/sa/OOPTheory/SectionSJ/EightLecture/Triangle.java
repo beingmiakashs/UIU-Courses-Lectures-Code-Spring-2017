@@ -15,8 +15,21 @@ public class Triangle extends Shape implements ShapeFunc {
     }
 
     @Override
+    public boolean equals(Object t3) {
+        Triangle t2 = (Triangle)t3;
+        if(this.width == t2.width && this.height==t2.height){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    @Override
     public String toString() {
-        return super.toString();
+        //String res = super.toString();
+        String res = "Triangle info: "+width+" "+height;
+        return res;
     }
 
     public void printDetails(){

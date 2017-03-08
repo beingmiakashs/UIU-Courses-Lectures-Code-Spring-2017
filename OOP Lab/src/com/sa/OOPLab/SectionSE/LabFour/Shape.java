@@ -3,10 +3,12 @@ package com.sa.OOPLab.SectionSE.LabFour;
 /**
  * Created by akashs on 2/28/17.
  */
-public class Shape {
+public abstract class Shape {
     public double width;
     public double height;
     public double depth;
+
+    public abstract double calArea();
 
 //    public Shape(){
 //
